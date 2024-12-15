@@ -7,7 +7,7 @@ type: Opaque
 data:
   MYSQL_USER: c2hpcHBpbmc=  #echo -n shipping | base64
   MYSQL_PASSWORD: c2VjcmV0  # echo -n secret | base64
-  MYSQL_ROOT_PASSWORD: cm9vdDEyMw==  # echo -n root123 | base64
+  MYSQL_ROOT_PASSWORD: cm9vdDEyMwo=  # echo  root123 | base64
 ---
 apiVersion: v1
 kind: ConfigMap
